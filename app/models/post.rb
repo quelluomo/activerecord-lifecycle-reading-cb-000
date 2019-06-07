@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
 
   before_validation :make_title_case
 
-  before_save :email_author_about_post
+  #before_save :email_author_about_post
 
   private
 
